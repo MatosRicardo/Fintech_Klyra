@@ -28,4 +28,4 @@ O objetivo da landing page é fornecer uma introdução à Klyra, destacando os 
 - Footer com links para redes sociais e contato.
 
 ---
-Este projeto foi desenvolvido por **Ana Beatriz, Ricardo Matos e Paulo Nalcino.**
+Este projeto foi desenvolvido por **Beatriz Marques, Ricardo Matos e Paulo Nalcino.**
