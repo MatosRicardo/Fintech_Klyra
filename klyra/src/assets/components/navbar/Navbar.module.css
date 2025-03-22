@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 9vh;
+  border-radius: 36px;
+  background-color: #f6f8ff;
+  p {
+    margin-top: 23px;
+    color: var(--Secondary, #272d2d);
+    font-family: Gabarito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.buttonNav {
+  position: relative;
+  left: -20px;
+  border-radius: 12px;
+  background: var(--Primary, #a846a0);
+  color: var(--Secondary, #f6f8ff);
+  width: 180px;
+  height: 40px;
+  font-size: 24px;
+  margin-top: 15px;
+  border-color: #a846a0;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-left: 20px;
+}
