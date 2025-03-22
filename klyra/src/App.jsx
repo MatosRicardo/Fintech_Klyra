@@ -1,4 +1,4 @@
-import Navbar from "./assets/components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar.jsx";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {

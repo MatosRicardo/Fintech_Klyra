@@ -1,10 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: auto;
+  width: 160vh;
   height: 9vh;
   border-radius: 36px;
-  background-color: #f6f8ff;
+  background: var(--Secondary, #f6f8ff);
   p {
     margin-top: 23px;
     color: var(--Secondary, #272d2d);

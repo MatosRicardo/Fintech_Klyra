@@ -1,10 +1,11 @@
-import Styles from "../navbar/navbar.module.css";
+import Styles from "../navbar/Navbar.module.css";
 import { Link } from "react-router-dom";
-import iconNav from "../../../../public/iconNav.svg";
+import iconNav from "../../../public/iconNav.svg";
+import { LucideLogIn } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <div>
+    <div className={Styles.container}>
       <nav className={Styles.navbar}>
         <Link>
           <img src={iconNav} className={Styles.logo} />
@@ -22,7 +23,9 @@ export default function Navbar() {
           <p>Sobre Nós</p>
         </Link>
         <Link>
-          <button className={Styles.buttonNav}>Cadastre-se</button>
+          <button className={Styles.buttonNav}>
+            Cadastre-se <LucideLogIn className={Styles.iconLogin} />{" "}
+          </button>
         </Link>
       </nav>
     </div>
