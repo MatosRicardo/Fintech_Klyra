@@ -1,15 +1,17 @@
 .container {
   display: flex;
   justify-content: center;
+  background-color: #272d2d;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 160vh;
-  height: 9vh;
+  width: 175vh;
+  height: 10vh;
   border-radius: 36px;
-  background: var(--Secondary, #f6f8ff);
+   background: var(--Secondary, #f6f8ff);
+   margin-top: 2vh; 
   p {
     margin-top: 23px;
     color: var(--Secondary, #272d2d);
