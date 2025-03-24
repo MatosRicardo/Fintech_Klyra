@@ -1,3 +1,24 @@
-.fundohome{
+/* div localizada no app.jsx */
+.fundohome{ 
     background-image: url(/klyra/src/assets/fundohome.png);
-} 
+}
+
+.Texto{
+    color: #F6F8FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 155px;
+}
+
+.Texto h1{
+    font-family: Gabarito;
+font-size: 4.4em;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
