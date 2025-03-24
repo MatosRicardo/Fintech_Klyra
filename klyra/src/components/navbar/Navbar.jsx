@@ -23,9 +23,7 @@ export default function Navbar() {
           <p>Sobre Nós</p>
         </Link>
         <Link>
-          <button className={Styles.buttonNav}>
-            Cadastre-se <LucideLogIn className={Styles.iconLogin} />{" "}
-          </button>
+          <button className={Styles.buttonNav}>Cadastre-se</button>
         </Link>
       </nav>
     </div>
